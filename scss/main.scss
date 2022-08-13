@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-  background-color: red;
+.logo {
+  background-image: url(../assets/logo.png);
 }
