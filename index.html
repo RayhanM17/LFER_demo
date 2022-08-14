@@ -10,36 +10,69 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="showcase">
-    <nav class="p-5 bg-black bg-opacity-50 shadow md:flex md:items-center md:justify-between">
+  <div class="showcase relative bg-cover bg-no-repeat bg-center">
+
+    <div class="overlay absolute top-0 left-0 bg-black opacity-40 w-full h-full z-[1]"></div>
+
+    <!-- Nav -->
+    <nav class="md:px-10 p-5 bg-black bg-opacity-50 shadow md:flex md:items-center md:justify-between">
       <div class="flex justify-between">
-        <div class="logo bg-cover bg-no-repeat bg-center h-16 w-44"></div>
+        <div class="logo bg-cover bg-no-repeat bg-center h-16 w-44 z-[2]"></div>
   
-        <span class="text-4xl cursor-pointer md:hidden flex items-center">
+        <span class="text-4xl cursor-pointer md:hidden flex items-center z-[2]">
           <i class="bi bi-list text-white"></i>
         </span>
       </div>
   
-      <ul class="nav-list md:flex md:items-center text-white font-sans font-medium z-[-1] md:z-auto md:static absolute bg-black md:bg-opacity-0 bg-opacity-50 w-full left-0 top-[-400px] mt-5 md:mt-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 transition-all ease-in duration-500">
-        <li class="mx-12 my-6 md:my-0 ">
-          <a href="#" class="text-sm hover:underline decoration-[#b90004] duration-500">Home</a>
+      <ul class="nav-list md:flex md:items-center text-white font-sans font-medium z-[3] md:static absolute bg-black md:bg-opacity-0 bg-opacity-50 w-full left-0 top-[-400px] mt-5 md:mt-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 transition-all ease-in duration-500">
+        <li class="lg:mx-14 mx-10 my-6 md:my-0 ">
+          <a href="#" class="group transition-all duration-300 ease-in-out">
+            <span class='bg-left-bottom bg-gradient-to-r from-[#b90004] to-[#b90004] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out'>
+              Home
+            </span>
+          </a>
         </li>
-        <li class="mx-12 my-6 md:my-0">
-          <a href="#" class="text-sm hover:underline decoration-[#b90004] duration-500">About</a>
+        <li class="lg:mx-14 mx-10 my-6 md:my-0">
+          <a href="#" class="group transition-all duration-300 ease-in-out">
+            <span class='bg-left-bottom bg-gradient-to-r from-[#b90004] to-[#b90004] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out'>
+              About
+            </span>
+          </a>
         </li>
-        <li class="mx-12 my-6 md:my-0">
-          <a href="#" class="text-sm hover:underline decoration-[#b90004] duration-500">Services</a>
+        <li class="lg:mx-14 mx-10 my-6 md:my-0">
+          <a href="#" class="group transition-all duration-300 ease-in-out">
+            <span class='bg-left-bottom bg-gradient-to-r from-[#b90004] to-[#b90004] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out'>
+              Services
+            </span>
+          </a>
         </li>
-        <li class="mx-12 my-6 md:my-0 md:hidden block">
-          <a href="#" class="text-sm hover:underline decoration-[#b90004] duration-500">Contact</a>
+        <li class="lg:mx-14 mx-10 my-6 md:my-0 md:hidden block">
+          <a href="#" class="group transition-all duration-300 ease-in-out">
+            <span class='bg-left-bottom bg-gradient-to-r from-[#b90004] to-[#b90004] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out'>
+              Contact
+            </span>
+          </a>
         </li>
   
-        <button class="bg-[#b90004] text-sm duration-500 py-2 px-4 hover:bg-opacity-90 md:inline-flex hidden">
+        <button class="bg-[#b90004] text-sm duration-500 py-2 px-4 hover:bg-opacity-90 md:inline-flex hidden cursor-pointer">
           <span class="min-w-24">Contact Us</span>
           <i class="bi bi-chevron-right h-1 ml-3"></i>
         </button>
       </ul>
     </nav>
+
+    <!-- Hero -->
+    <div class="md:px-12 p-7 text-white font-sans md:py-40 py-24 flex flex-col justify-center md:items-start items-center">
+      <div class="lg:w-1/2 md:w-3/4 w-full md:text-left text-center z-[2]">
+        <h1 class="uppercase font-thin md:text-4xl text-3xl">we provide the highest quality service <span class="font-semibold">people you trust</span> 
+        </h1>
+        <p class="md:mt-10 mt-6">We use top quality parts, and are bent on getting your equipment running</p>
+        <button class="bg-[#b90004] text-sm duration-500 md:mt-10 mt-6 py-2 px-4 hover:bg-opacity-90 max-w-10">
+          <span class="min-w-24">See all services</span>
+          <i class="bi bi-chevron-right h-1 ml-3"></i>
+        </button>
+      </div>
+    </div>
   </div>
   
   <script src="./js/app.js"></script>
