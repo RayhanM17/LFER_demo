@@ -8,3 +8,7 @@
 .showcase {
   background-image: url(../assets/showcase-1.png);
 }
+
+.is-invalid {
+  border-color: red;
+}
