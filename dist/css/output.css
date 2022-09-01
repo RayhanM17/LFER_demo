@@ -991,8 +991,36 @@ video {
   --tw-bg-opacity: 0.5;
 }
 
+.bg-\[url\(\'\.\.\/assets\/showcase-3\.png\'\)\] {
+  background-image: url('../assets/showcase-3.png');
+}
+
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.bg-\[url\(\'\.\.\/assets\/repair-man-sm\.jpg\'\)\] {
+  background-image: url('../assets/repair-man-sm.jpg');
+}
+
+.bg-\[url\(\'\.\.\/assets\/repair-man-md\.jpg\'\)\] {
+  background-image: url('../assets/repair-man-md.jpg');
+}
+
+.bg-\[url\(\'\.\.\/assets\/showcase-1-sm\.png\'\)\] {
+  background-image: url('../assets/showcase-1-sm.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/showcase-1-md\.png\'\)\] {
+  background-image: url('../assets/showcase-1-md.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/showcase-2-sm\.png\'\)\] {
+  background-image: url('../assets/showcase-2-sm.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/showcase-2-md\.png\'\)\] {
+  background-image: url('../assets/showcase-2-md.png');
 }
 
 .bg-\[url\(\'\.\.\/assets\/buisiness-1\.png\'\)\] {
@@ -1025,26 +1053,6 @@ video {
 
 .bg-\[url\(\'\.\.\/assets\/screws-1\.png\'\)\] {
   background-image: url('../assets/screws-1.png');
-}
-
-.bg-\[url\(\'\/assets\/showcase-3\.png\'\)\] {
-  background-image: url('/assets/showcase-3.png');
-}
-
-.bg-\[url\(\'\/\.assets\/showcase-3\.png\'\)\] {
-  background-image: url('/.assets/showcase-3.png');
-}
-
-.bg-\[url\(\'\.\/assets\/showcase-3\.png\'\)\] {
-  background-image: url('./assets/showcase-3.png');
-}
-
-.bg-\[url\(\'\.\.\/dist\/assets\/showcase-3\.png\'\)\] {
-  background-image: url('../dist/assets/showcase-3.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/showcase-3\.png\'\)\] {
-  background-image: url('../assets/showcase-3.png');
 }
 
 .from-\[\#b90004\] {
@@ -1330,10 +1338,6 @@ video {
 
 .logo {
   background-image: url(../assets/logo.png);
-}
-
-.showcase {
-  background-image: url(../assets/showcase-1.png);
 }
 
 .is-invalid {
