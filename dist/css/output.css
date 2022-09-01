@@ -1027,6 +1027,26 @@ video {
   background-image: url('../assets/screws-1.png');
 }
 
+.bg-\[url\(\'\/assets\/showcase-3\.png\'\)\] {
+  background-image: url('/assets/showcase-3.png');
+}
+
+.bg-\[url\(\'\/\.assets\/showcase-3\.png\'\)\] {
+  background-image: url('/.assets/showcase-3.png');
+}
+
+.bg-\[url\(\'\.\/assets\/showcase-3\.png\'\)\] {
+  background-image: url('./assets/showcase-3.png');
+}
+
+.bg-\[url\(\'\.\.\/dist\/assets\/showcase-3\.png\'\)\] {
+  background-image: url('../dist/assets/showcase-3.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/showcase-3\.png\'\)\] {
+  background-image: url('../assets/showcase-3.png');
+}
+
 .from-\[\#b90004\] {
   --tw-gradient-from: #b90004;
   --tw-gradient-to: rgb(185 0 4 / 0);
