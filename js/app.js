@@ -137,7 +137,6 @@ if(document.querySelector('body').classList.contains('services-body')){
 
 if(document.querySelector('body').classList.contains('homepage-body')){ 
   var branding = document.querySelector('nav .logo');
-  console.log(branding)
 
   window.onscroll = function() {
     windowScroll();
