@@ -134,3 +134,16 @@ if(document.querySelector('body').classList.contains('services-body')){
   //   [26.32080112, -80.07535283],
   // ]).addTo(map);
 }
+
+if(document.querySelector('body').classList.contains('homepage-body')){ 
+  var branding = document.querySelector('nav .logo');
+  console.log(branding)
+
+  window.onscroll = function() {
+    windowScroll();
+  };
+
+  function windowScroll() { 
+    branding.classList.toggle("test-2", branding.scrollTop > 50 || document.documentElement.scrollTop > 50);
+  }
+}
