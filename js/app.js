@@ -108,3 +108,29 @@ if(document.querySelector('body').classList.contains('contact-body')){
   });
 }
 
+// Map
+if(document.querySelector('body').classList.contains('services-body')){ 
+  var map = L.map('map').setView([25.991650, -80.203550], 12);
+
+  L.tileLayer('https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=fN667Qw1rWdexiPqfieL', {
+  attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>',
+  }).addTo(map);
+
+  var customIcon = L.icon({
+    iconUrl: './assets/logo-sm.png',
+
+    iconSize:     [48, 65], // size of the icon
+    iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+});
+
+  var marker = L.marker([25.991650, -80.203550], {icon: customIcon}).addTo(map);
+
+  // var polygon = L.polygon([
+  //   [26.35484385, -80.29658562],
+  //   [26.3274, -80.2019],
+  //   [26.1846, -80.2993],
+  //   [26.1236, -80.3428],
+  //   [26.1386, -80.4241],
+  //   [26.32080112, -80.07535283],
+  // ]).addTo(map);
+}
