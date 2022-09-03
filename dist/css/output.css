@@ -1055,6 +1055,14 @@ video {
   background-image: url('../assets/screws-1.png');
 }
 
+.bg-\[url\(\'\.\.\/assets\/service-equipment\.png\'\)\] {
+  background-image: url('../assets/service-equipment.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/service-equipment\.JPG\'\)\] {
+  background-image: url('../assets/service-equipment.JPG');
+}
+
 .from-\[\#b90004\] {
   --tw-gradient-from: #b90004;
   --tw-gradient-to: rgb(185 0 4 / 0);
@@ -1553,6 +1561,10 @@ video {
 
   .md\:items-center {
     align-items: center;
+  }
+
+  .md\:justify-start {
+    justify-content: flex-start;
   }
 
   .md\:justify-between {
