@@ -657,6 +657,10 @@ video {
   margin: 0.25rem;
 }
 
+.m-\[50\%\] {
+  margin: 50%;
+}
+
 .mx-10 {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
@@ -747,6 +751,18 @@ video {
 
 .mb-8 {
   margin-bottom: 2rem;
+}
+
+.mt-\[50\%\] {
+  margin-top: 50%;
+}
+
+.mt-\[20\%\] {
+  margin-top: 20%;
+}
+
+.mt-\[25\%\] {
+  margin-top: 25%;
 }
 
 .block {
@@ -1043,8 +1059,8 @@ video {
   background-image: url('../assets/buisiness-5.png');
 }
 
-.bg-\[url\(\'\.\.\/assets\/fryer-1\.png\'\)\] {
-  background-image: url('../assets/fryer-1.png');
+.bg-\[url\(\'\.\.\/assets\/service-equipment\.JPG\'\)\] {
+  background-image: url('../assets/service-equipment.JPG');
 }
 
 .bg-\[url\(\'\.\.\/assets\/truck-1\.png\'\)\] {
@@ -1053,14 +1069,6 @@ video {
 
 .bg-\[url\(\'\.\.\/assets\/screws-1\.png\'\)\] {
   background-image: url('../assets/screws-1.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/service-equipment\.png\'\)\] {
-  background-image: url('../assets/service-equipment.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/service-equipment\.JPG\'\)\] {
-  background-image: url('../assets/service-equipment.JPG');
 }
 
 .from-\[\#b90004\] {
@@ -1457,6 +1465,10 @@ video {
     left: 0px;
   }
 
+  .md\:top-1\/4 {
+    top: 25%;
+  }
+
   .md\:row-start-1 {
     grid-row-start: 1;
   }
@@ -1471,6 +1483,10 @@ video {
 
   .md\:row-end-3 {
     grid-row-end: 3;
+  }
+
+  .md\:m-auto {
+    margin: auto;
   }
 
   .md\:my-0 {
