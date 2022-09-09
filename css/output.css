@@ -817,6 +817,10 @@ video {
   height: 34rem;
 }
 
+.h-\[40rem\] {
+  height: 40rem;
+}
+
 .min-h-\[10rem\] {
   min-height: 10rem;
 }
@@ -859,6 +863,10 @@ video {
 
 .w-\[70\%\] {
   width: 70%;
+}
+
+.w-\[80\%\] {
+  width: 80%;
 }
 
 .max-w-sm {
@@ -1218,8 +1226,16 @@ video {
   padding-right: 1rem;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .font-sans {
